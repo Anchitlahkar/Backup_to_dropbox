@@ -23,7 +23,6 @@ class TransferData:
 
 def main():
     AccessToken = input("Please Input You DropBox access Token\n")
-    # AccessToken = 'yGNCqYxnD6QAAAAAAAAAAQxm9ZwFySM4SnlKYaE4_qW4v2TCtO3OibEsfmEZdWjR'
     transferData = TransferData(AccessToken)
 
     file_from = input("\nPlease ente the file location\n")
